@@ -9,7 +9,7 @@
 - Accéder à **phpMyAdmin** via : [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
 
 **Capture d’écran :**  
-![Capture XAMPP](URL_IMAGE_PUBLIC)
+![](https://github.com/user-attachments/assets/4a40954c-e5d0-40aa-9b11-19408cbf7400)
 
 ### 2. Création de la base de données
 
@@ -78,4 +78,5 @@ Communication Android ↔ PHP : HTTP POST / GET
 Échange des données au format JSON, parsé avec Gson
 
 Android 9+ : trafic HTTP autorisé via network_security_config.xml
+
 
