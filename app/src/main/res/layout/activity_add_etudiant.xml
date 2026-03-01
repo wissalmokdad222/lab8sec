@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#fff0f5"
+    tools:context=".AddEtudiant">
+
+    <!-- Nom -->
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Nom :"
+android:textColor="#e91e63"
+    android:textSize="17sp"
+    android:paddingBottom="8dp"/>
+
+<EditText
+android:id="@+id/nom"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/edittext_rose"
+android:inputType="textPersonName"
+android:padding="8dp"
+android:textColor="#000000"
+android:textSize="16sp"/>
+
+    <!-- Prénom -->
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Prénom :"
+android:textColor="#e91e63"
+android:textSize="17sp"
+android:paddingBottom="8dp"/>
+
+<EditText
+android:id="@+id/prenom"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/edittext_rose"
+android:inputType="textPersonName"
+android:padding="8dp"
+android:textColor="#000000"
+android:textSize="16sp"/>
+
+    <!-- Ville -->
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Ville :"
+android:textColor="#e91e63"
+android:textSize="17sp"
+android:paddingBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/ville"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/villes"
+        android:background="@drawable/edittext_rose"
+        android:padding="8dp"
+        android:spinnerMode="dropdown"/>
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Sexe :"
+android:textColor="#e91e63"
+android:textSize="17sp"
+android:paddingBottom="8dp"/>
+
+<RadioGroup
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_marginBottom="16dp">
+
+<RadioButton
+    android:id="@+id/m"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Homme"
+    android:textColor="#e91e63"
+    android:layout_marginEnd="16dp" />
+
+<RadioButton
+    android:id="@+id/f"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Femme"
+    android:textColor="#e91e63" />
+</RadioGroup>
+
+<Button
+android:id="@+id/add"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Ajouter"
+android:backgroundTint="#e91e63"
+android:textColor="#ffffff"
+android:textSize="16sp"
+android:padding="10dp"/>
+
+    </LinearLayout>
